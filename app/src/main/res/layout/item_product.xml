@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="27.5dp"
+    android:layout_marginRight="11dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/image"
+        android:layout_width="151.5dp"
+        android:layout_height="201.5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_welcome"
+        app:riv_corner_radius="8dp"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <customfonts.MyTextView_Roboto_Bold
+           android:id="@+id/price"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="400 - 1000 AED"
+           android:layout_marginTop="5.5dp"
+           android:textColor="@color/white"
+           android:textSize="11.7sp"
+           android:textStyle="bold"
+           android:ellipsize="end"
+           android:maxLines="1"/>
+
+       <customfonts.MyTextView_Roboto_Bold
+           android:id="@+id/new_price"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="400 - 1000 AED"
+           android:layout_marginTop="5.5dp"
+           android:textColor="@color/lightGold"
+           android:textSize="11.7sp"
+           android:textStyle="bold"
+           android:ellipsize="end"
+           android:maxLines="1"/>
+   </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Bold
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:text="Full Color w/ Inoa"
+        android:textSize="11.7sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <customfonts.MyTextView_Roboto_Bold
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Color w/ Inoa"
+        android:layout_marginTop="3.5dp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:textSize="8.3sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+</LinearLayout>
